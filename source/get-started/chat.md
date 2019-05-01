@@ -131,7 +131,7 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-  console.log('an user connected');
+  console.log('a user connected');
 });
 
 http.listen(3000, function(){
